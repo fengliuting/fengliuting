@@ -21,7 +21,6 @@ for sheet1 in sheets:
         params['name']=values[2]
         params['value']=values[3]
         params['txt']=values[4]
-        print("hello")
         if type(values[0]) is int:
             if values[1] == 'browser':
                 wd=WebDemo()
