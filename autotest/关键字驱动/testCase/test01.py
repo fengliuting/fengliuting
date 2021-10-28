@@ -1,6 +1,9 @@
+import os
+import sys
 import unittest
-
-from 关键字驱动.baseLogic.base import WebDemo
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
+from baseLogic.base import WebDemo
 
 
 class Test01(unittest.TestCase):
